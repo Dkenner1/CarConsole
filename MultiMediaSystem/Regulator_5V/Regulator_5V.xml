@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\dkenn\Documents\CarConsole\MultiMediaSystem\Regulator_5V\Regulator_5V.kicad_sch</source>
+    <date>4/24/2022 4:56:08 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>5V, 5A Buck Regulator</title>
+        <company/>
+        <rev>v1.0</rev>
+        <date>2022-02-27</date>
+        <source>Regulator_5V.kicad_sch</source>
+        <comment number="1" value="General Purpose TPS5450DDAR regulator"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc443870-95c4-4c31-882a-1c3fbcf7b0c2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04b0e23b-41e7-407e-809f-f67e5848ab6a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05e72dc4-f75e-4512-b151-bc15a0309568</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac87d1f8-a7ec-4a19-a2b8-0c21af54e1ad</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10TPB330M</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b446cf53-aff5-4574-9f68-8f1041668154</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.01uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be41521b-ebaf-410b-8b59-2340c3c7bf5e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>B540C</value>
+      <footprint>Diode_SMD:D_SMC-RM10_Universal_Handsoldering</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d24fc1f-7dba-462e-9cf0-f98c050d95e8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Custom:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42688fc6-3e24-4a56-9963-828da46dcdfb</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>15uH</value>
+      <footprint>Inductor_Coilcraft:SER2918H-103KL</footprint>
+      <libsource lib="Device" part="L_Iron" description="Inductor with iron core"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6dc97c48-3755-47bb-8b8e-b48978d8ddea</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6da0563a-6f56-4d3f-ba6d-23a8db660e7d</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>R_3.16k</value>
+      <footprint>Potentiometer_Imported:GF063P1</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9feb89e8-a76d-45d5-8af6-f4e73565a5d4</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS5450DDAR</value>
+      <footprint>VReg:TPS5450DDAR</footprint>
+      <libsource lib="Texas_Instruments_Regulator" part="TPS5450QDDARQ1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Regulator_5V.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cacfc9f7-e18c-40c1-a949-7c5256add29e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Iron">
+      <description>Inductor with iron core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Iron</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Texas_Instruments_Regulator" part="TPS5450QDDARQ1">
+      <footprints>
+        <fp>DDA8_3X2P49</fp>
+        <fp>DDA8_3X2P49-M</fp>
+        <fp>DDA8_3X2P49-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5450QDDARQ1</field>
+        <field name="Footprint">DDA8_3X2P49</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="unspecified"/>
+        <pin num="2" name="NC" type="unspecified"/>
+        <pin num="3" name="NC" type="unspecified"/>
+        <pin num="4" name="VSENSE" type="output"/>
+        <pin num="5" name="ENA" type="unspecified"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="VIN" type="input"/>
+        <pin num="8" name="PH" type="bidirectional"/>
+        <pin num="EPAD" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Texas_Instruments_Regulator">
+      <uri>C:/Users/dkenn/Documents/CarConsole/Texas_Instruments_Regulator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Boot">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="BOOT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="EPAD" pinfunction="EPAD" pintype="unspecified"/>
+    </net>
+    <net code="3" name="PH">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PH" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Vin">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="5" name="Vout">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Vsense">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VSENSE" pintype="output"/>
+    </net>
+    <net code="7" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="ENA" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

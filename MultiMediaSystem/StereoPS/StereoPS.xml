@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\dkenn\Documents\CarConsole\MultiMediaSystem\StereoPS\StereoPS.kicad_sch</source>
+    <date>4/24/2022 10:14:05 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>LTC3780 Audio Amplifier Voltage Regulator</title>
+        <company>Boost-Buck Converter for low ripple adjustable input into Audio Amplifier</company>
+        <rev>V1.0</rev>
+        <date>2022-02-27</date>
+        <source>StereoPS.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d291275-5607-4d26-a6c0-6a391859eca2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de2f3564-5815-4dcc-ab5f-e467250b8ad9</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed3da8ca-fee8-474e-8dda-104d5bf02b2b</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2200pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>363ac781-5a2c-4c47-a5a8-fa6692b5c584</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e27b86e7-3ebb-42fa-aa1d-1db2fe71a0f0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2f7e3df-0246-4fd8-afcf-a6b48b848044</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab9b0c66-c125-4b2d-8225-61089882d9cc</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33e1bc13-05b2-4518-a383-a2ad2b5fa8cc</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>330uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9fc92f9-1859-4d32-9f36-2b0e5e80fb32</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS34-E3</value>
+      <footprint>Diode_SMD:D_MELF-RM10_Universal_Handsoldering</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dbf2a341-c70a-4a4c-86cf-1cdcb92669cb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS32-E3</value>
+      <footprint>Diode_SMD:D_MELF-RM10_Universal_Handsoldering</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81839c4d-7f4f-4eb0-a1df-9dc6ed8701ae</tstamps>
+    </comp>
+    <comp ref="DA1">
+      <value>MBR0540L</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92782e96-c628-4162-a904-4948ff479078</tstamps>
+    </comp>
+    <comp ref="DB1">
+      <value>MBR0540L</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ce2e0cb-0351-47ee-8d84-14a4b02bb2cc</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a730a8-e80f-4473-ac1e-8bea0cd8d88e</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8f38a58-42dc-4ba2-9b36-8f484b567900</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51d4353e-4904-40dd-8286-da107439d3ab</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea0ee2c9-885b-4c4e-992a-86782e1a690a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PwrIn</value>
+      <footprint>Custom:PinHeader_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e3d32d7-8623-4449-8868-e9670455f034</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PwrOut</value>
+      <footprint>Custom:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ea1a4d3-3804-46bd-a544-5864a4142261</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc585cd2-33fc-45d1-a420-718f94d4ea7b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>RX3G07CGNC16</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38049b62-eae6-401b-82eb-0bb61c781cf9</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>RX3G07CGNC16</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>317e5e54-62b7-4fe0-ac3f-10ac893e0a49</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>RX3G07CGNC16</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db41e836-6945-404a-8e36-2d5f7579c882</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>RX3G07CGNC16</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown</footprint>
+      <libsource lib="Device" part="Q_NMOS_DGS" description="N-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b5e9ff4-c2c8-47f0-ad44-2ae0136105e5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10mOhm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b87e563-212b-4b8b-b382-f91fd607893d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>105k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40dc5465-fd00-40cd-89bc-fffbd5103c37</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>0Ohm</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb72fc14-0b21-4c3c-913a-8c214ac884f1</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f51e2509-4649-458a-aa21-660339552d61</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>~7.5K</value>
+      <footprint>Potentiometer_Imported:CT-6EW</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fa07262-5bf6-45d8-9120-f080486fe09d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTC3780IG-PBF</value>
+      <footprint>Imported:LTC3780IG-PBF</footprint>
+      <libsource lib="Regulator_Switching" part="LTC3780IG-PBF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StereoPS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4394847d-f9d6-4a30-aebe-a6be74dfae31</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_DGS">
+      <description>N-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_DGS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LTC3780IG-PBF">
+      <footprints>
+        <fp>SSOP-24_G_LIT</fp>
+        <fp>SSOP-24_G_LIT-M</fp>
+        <fp>SSOP-24_G_LIT-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">LTC3780IG-PBF</field>
+        <field name="Footprint">SSOP-24_G_LIT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGOOD" type="output"/>
+        <pin num="2" name="SS" type="input"/>
+        <pin num="3" name="SENSE+" type="input"/>
+        <pin num="4" name="SENSE-" type="input"/>
+        <pin num="5" name="ITH" type="unspecified"/>
+        <pin num="6" name="VOSENSE" type="input"/>
+        <pin num="7" name="SGND" type="power_in"/>
+        <pin num="8" name="RUN" type="input"/>
+        <pin num="9" name="FCB" type="input"/>
+        <pin num="10" name="PLLFLTR" type="unspecified"/>
+        <pin num="11" name="PLLIN" type="input"/>
+        <pin num="12" name="STBYMD" type="unspecified"/>
+        <pin num="13" name="BOOST2" type="unspecified"/>
+        <pin num="14" name="TG2" type="output"/>
+        <pin num="15" name="SW2" type="unspecified"/>
+        <pin num="16" name="BG2" type="output"/>
+        <pin num="17" name="PGND" type="power_in"/>
+        <pin num="18" name="BG1" type="output"/>
+        <pin num="19" name="INTVCC" type="output"/>
+        <pin num="20" name="EXTVCC" type="input"/>
+        <pin num="21" name="VIN" type="input"/>
+        <pin num="22" name="SW1" type="unspecified"/>
+        <pin num="23" name="TG1" type="output"/>
+        <pin num="24" name="BOOST1" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BG1">
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="BG1" pintype="output"/>
+    </net>
+    <net code="2" name="BG2">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="BG2" pintype="output"/>
+    </net>
+    <net code="3" name="Boost1">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="DA1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="BOOST1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="Boost2">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="DB1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="BOOST2" pintype="unspecified"/>
+    </net>
+    <net code="5" name="FCB">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="FCB" pintype="input"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="SENSE-" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="SGND" pintype="power_in"/>
+    </net>
+    <net code="7" name="INTVCC">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="DA1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="DB1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="INTVCC" pintype="output"/>
+    </net>
+    <net code="8" name="Ith">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="ITH" pintype="unspecified"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="SENSE+">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SENSE+" pintype="input"/>
+    </net>
+    <net code="11" name="SS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SS" pintype="input"/>
+    </net>
+    <net code="12" name="SW1">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="SW1" pintype="unspecified"/>
+    </net>
+    <net code="13" name="SW2">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="SW2" pintype="unspecified"/>
+    </net>
+    <net code="14" name="TG1">
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="23" pinfunction="TG1" pintype="output"/>
+    </net>
+    <net code="15" name="TG2">
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="TG2" pintype="output"/>
+    </net>
+    <net code="16" name="Vin">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="17" name="Vout">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Vsense">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VOSENSE" pintype="input"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="PGOOD" pintype="output+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="RUN" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="PLLFLTR" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="PLLIN" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="STBYMD" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad20)">
+      <node ref="U1" pin="20" pinfunction="EXTVCC" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>

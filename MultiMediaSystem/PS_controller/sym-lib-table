@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Buck_reg")(type "Legacy")(uri "C:/Users/dkenn/Documents/KiCad/LT3970HMS/2022-02-15_07-34-55/2022-02-15_07-34-55.lib")(options "")(descr ""))
+  (lib (name "trinketpro_5v")(type "KiCad")(uri "C:/Users/dkenn/Documents/CarConsole/trinketpro_5v.kicad_sym")(options "")(descr ""))
+)

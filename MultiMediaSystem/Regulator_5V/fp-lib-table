@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "VReg")(type "KiCad")(uri "C:/Users/dkenn/Documents/KiCad/6.0/footprints/VReg")(options "")(descr ""))
+)
