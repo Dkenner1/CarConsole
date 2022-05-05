@@ -1,4 +1,4 @@
-19848023446328784
+19854651980163521
 Arduino
 TrinketPro5V
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
@@ -49336,6 +49336,20 @@ AudioAmp_PS
 7
 3
 Custom
+C_0.64x0.4_Handsolder
+
+
+0
+2
+2
+Custom
+C_0201_0603Metric_Pad0.64x0.40mm_HandSolder
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+4
+2
+Custom
 HMC784AMS8GETR
 
 
@@ -49347,8 +49361,8 @@ HeadUnit_Conn
 Through hole angled pin header, 2x08, 2.54mm pitch, 6mm pin length, double rows
 Through hole angled pin header THT 2x08 2.54mm double row
 0
-18
-17
+16
+15
 Custom
 MotherBoard_Bracket_1
 
@@ -49370,6 +49384,20 @@ PS_Controller
 0
 8
 6
+Custom
+PinHeader_1x02_P2.54mm_Horizontal
+Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x02 2.54mm single row
+0
+2
+2
+Custom
+PinHeader_1x03_P2.54mm_Horizontal
+Through hole angled pin header, 1x03, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x03 2.54mm single row
+0
+3
+3
 Custom
 RadioAmp
 
@@ -52294,8 +52322,8 @@ TAS5412TPHDRQ1
 
 
 0
-165
-66
+114
+64
 Imported
 TPS5450QDDARQ1
 
