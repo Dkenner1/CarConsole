@@ -1,0 +1,11 @@
+Mountingholes readjusted based off bottom plate measurements
+Bracketmount holes readjusted based off measurements
+Left/Right pcb walls pulled in ~5mm to better fit casing
+5V Buck Reg mounting bracket footprints added
+5V Buck reg's repositioned 
+Top motherboard bracket (J21) moved up 3mm to fit distance between wall brackets (measure and confirm before ordering)
+PowerSupplyCtrl moved up additional 3mm since motherboard has been moved
+
+Wireharness plugin pins adjusted to actually reflect the pinout of the car + screw hole size increased. (Confirm again before order)
+
+AudioAmp pins have been reverted, must reorder AudioAmp with corrected pinout

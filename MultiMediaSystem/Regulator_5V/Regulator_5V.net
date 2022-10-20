@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Users\\dkenn\\Documents\\CarConsole\\MultiMediaSystem\\Regulator_5V\\Regulator_5V.kicad_sch")
-    (date "4/23/2022 10:25:20 AM")
+    (date "6/8/2022 11:09:56 AM")
     (tool "Eeschema (6.0.1)")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -57,7 +57,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "ac87d1f8-a7ec-4a19-a2b8-0c21af54e1ad"))
     (comp (ref "C5")
-      (value "10TPB330M")
+      (value "330uF")
       (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W_Pad2.25x2.55mm_HandSolder")
       (datasheet "~")
       (libsource (lib "Device") (part "C_Polarized_Small") (description "Polarized capacitor, small symbol"))
@@ -76,7 +76,7 @@
       (tstamps "be41521b-ebaf-410b-8b59-2340c3c7bf5e"))
     (comp (ref "D1")
       (value "B540C")
-      (footprint "Diode_SMD:D_SMC-RM10_Universal_Handsoldering")
+      (footprint "Diode_SMD:D_MELF_Handsoldering")
       (datasheet "~")
       (libsource (lib "Device") (part "D_Schottky") (description "Schottky diode"))
       (property (name "Sheetname") (value ""))

@@ -1,11 +1,18 @@
-19854651980163521
+19862969878728178
 Arduino
 TrinketPro5V
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
 Through hole pin header THT 1x12 2.54mm single row
 0
-30
-25
+54
+28
+Arduino
+TrinketPro5V_partial
+Through hole straight pin header, 1x12, 2.54mm pitch, single row
+Through hole pin header THT 1x12 2.54mm single row
+0
+60
+28
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -49322,6 +49329,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 3
 3
 Custom
+5V_Reg_Footprint_VertMnt
+Through hole straight socket strip, 1x03, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.54mm single row
+0
+5
+4
+Custom
 AudioAmp
 
 
@@ -49333,7 +49347,7 @@ AudioAmp_PS
 
 
 0
-7
+8
 3
 Custom
 C_0.64x0.4_Handsolder
@@ -49369,21 +49383,21 @@ MotherBoard_Bracket_1
 
 0
 10
-1
+10
 Custom
 MotherBoard_Bracket_2
 
 
 0
 8
-1
+8
 Custom
 PS_Controller
 
 
 0
-8
-6
+5
+4
 Custom
 PinHeader_1x02_P2.54mm_Horizontal
 Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row
@@ -49413,12 +49427,26 @@ mounting hole 2.1mm no annular
 0
 0
 Custom
+SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+Custom
 SubaruRadioJack
 dual independently isolated BNC plug (https://www.amphenolrf.com/downloads/dl/file/id/2980/product/644/031_6575_customer_drawing.pdf)
 Dual BNC Amphenol Horizontal
 0
 3
 2
+Custom
+TO-220-3_Horizontal_TabDown_Thermal
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+14
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -52322,8 +52350,8 @@ TAS5412TPHDRQ1
 
 
 0
-114
-64
+116
+65
 Imported
 TPS5450QDDARQ1
 
@@ -52338,6 +52366,13 @@ JA4575-AL
 0
 4
 4
+Inductor_Coilcraft
+L_12x12mm_H8mm
+Choke, SMD, 12x12mm 8mm height
+Choke SMD
+0
+2
+2
 Inductor_Coilcraft
 SER2918H-103KL
 

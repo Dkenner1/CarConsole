@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\dkenn\Documents\CarConsole\MultiMediaSystem\AudioAmp\AudioAmp.kicad_sch</source>
-    <date>4/24/2022 9:03:41 PM</date>
+    <date>6/8/2022 6:03:10 PM</date>
     <tool>Eeschema (6.0.1)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -556,7 +556,7 @@
       <tstamps>2b57ad64-4637-4937-86f4-df1a47c5cb91</tstamps>
     </comp>
     <comp ref="RV1">
-      <value>R_Potentiometer</value>
+      <value>50K pot</value>
       <footprint>Potentiometer_Imported:CT-6EW</footprint>
       <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
       <property name="Sheetname" value=""/>
@@ -868,10 +868,10 @@
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
-      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
     </net>
     <net code="3" name="AudioGND">
       <node ref="C55" pin="1" pintype="passive"/>
@@ -928,9 +928,9 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
@@ -966,6 +966,7 @@
       <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="EPAD" pinfunction="EPAD" pintype="unspecified"/>
     </net>
     <net code="10" name="I2C_ADDR">
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
@@ -1075,7 +1076,7 @@
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
       <node ref="U1" pin="27" pinfunction="PVDD" pintype="power_in"/>
       <node ref="U1" pin="28" pinfunction="PVDD" pintype="power_in"/>
       <node ref="U1" pin="29" pinfunction="PVDD" pintype="power_in"/>
@@ -1130,9 +1131,6 @@
     </net>
     <net code="43" name="unconnected-(U1-Pad61)">
       <node ref="U1" pin="61" pinfunction="OSC_SYNC" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="44" name="unconnected-(U1-PadEPAD)">
-      <node ref="U1" pin="EPAD" pinfunction="EPAD" pintype="unspecified+no_connect"/>
     </net>
   </nets>
 </export>

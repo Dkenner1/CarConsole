@@ -1,66 +1,85 @@
-"Source:","C:\Users\dkenn\Documents\CarConsole\MultiMediaSystem\StereoPS\StereoPS.kicad_sch"
-"Date:","4/24/2022 10:14:05 PM"
-"Tool:","Eeschema (6.0.1)"
-"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","30"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","C1","22uF","Device:C_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
-"","","C2","4.7uF","Device:C_Polarized_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"","","C3","1uF","Device:C_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
-"","","C4","2200pF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"","","C5",".1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C6",".1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C7",".1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"","","C8","100uF","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D8.0mm_P3.50mm","~"
-"","","C9","330uF","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~"
-"","","D1","SS34-E3","Device:D_Schottky","Diode_SMD:D_MELF-RM10_Universal_Handsoldering","~"
-"","","D2","SS32-E3","Device:D_Schottky","Diode_SMD:D_MELF-RM10_Universal_Handsoldering","~"
-"","","DA1","MBR0540L","Device:D_Schottky","Diode_SMD:D_SOD-123","~"
-"","","DB1","MBR0540L","Device:D_Schottky","Diode_SMD:D_SOD-123","~"
-"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm","~"
-"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm","~"
-"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm","~"
-"","","H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm","~"
-"","","J1","PwrIn","Connector_Generic:Conn_01x03","Custom:PinHeader_1x03_P2.54mm_Horizontal","~"
-"","","J2","PwrOut","Connector_Generic:Conn_01x02","Custom:PinHeader_1x02_P2.54mm_Horizontal","~"
-"","","L1","4.7uH","Device:L_Small","Inductor_SMD:L_12x12mm_H8mm","~"
-"","","Q1","RX3G07CGNC16","Device:Q_NMOS_DGS","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","~"
-"","","Q2","RX3G07CGNC16","Device:Q_NMOS_DGS","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","~"
-"","","Q3","RX3G07CGNC16","Device:Q_NMOS_DGS","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","~"
-"","","Q4","RX3G07CGNC16","Device:Q_NMOS_DGS","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","~"
-"","","R1","10mOhm","Device:R_Small","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","~"
-"","","R2","105k","Device:R_Small","Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal","~"
-"","","R3","0Ohm","Device:R_Small","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","~"
-"","","R4","20k","Device:R_Small","Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal","~"
-"","","RV1","~7.5K","Device:R_Potentiometer","Potentiometer_Imported:CT-6EW","~"
-"","","U1","LTC3780IG-PBF","Regulator_Switching:LTC3780IG-PBF","Imported:LTC3780IG-PBF",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","1","C1","22uF","Device:C_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
-"2","1","C2","4.7uF","Device:C_Polarized_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"3","1","C3","1uF","Device:C_Small","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
-"4","1","C4","2200pF","Device:C_Small","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","~"
-"5","3","C5, C6, C7",".1uF","Device:C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~"
-"6","1","C8","100uF","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D8.0mm_P3.50mm","~"
-"7","1","C9","330uF","Device:C_Polarized_Small","Capacitor_THT:CP_Radial_D10.0mm_P5.00mm","~"
-"8","1","D1","SS34-E3","Device:D_Schottky","Diode_SMD:D_MELF-RM10_Universal_Handsoldering","~"
-"9","1","D2","SS32-E3","Device:D_Schottky","Diode_SMD:D_MELF-RM10_Universal_Handsoldering","~"
-"10","2","DA1, DB1","MBR0540L","Device:D_Schottky","Diode_SMD:D_SOD-123","~"
-"11","4","H1, H2, H3, H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_2.5mm","~"
-"12","1","J1","PwrIn","Connector_Generic:Conn_01x03","Custom:PinHeader_1x03_P2.54mm_Horizontal","~"
-"13","1","J2","PwrOut","Connector_Generic:Conn_01x02","Custom:PinHeader_1x02_P2.54mm_Horizontal","~"
-"14","1","L1","4.7uH","Device:L_Small","Inductor_SMD:L_12x12mm_H8mm","~"
-"15","4","Q1, Q2, Q3, Q4","RX3G07CGNC16","Device:Q_NMOS_DGS","Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown","~"
-"16","1","R1","10mOhm","Device:R_Small","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","~"
-"17","1","R2","105k","Device:R_Small","Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal","~"
-"18","1","R3","0Ohm","Device:R_Small","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","~"
-"19","1","R4","20k","Device:R_Small","Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal","~"
-"20","1","RV1","~7.5K","Device:R_Potentiometer","Potentiometer_Imported:CT-6EW","~"
-"21","1","U1","LTC3780IG-PBF","Regulator_Switching:LTC3780IG-PBF","Imported:LTC3780IG-PBF",""
+Source:,C:\Users\dkenn\Documents\CarConsole\MultiMediaSystem\StereoPS\StereoPS.kicad_sch,,,,,
+Date:,6/8/2022 18:02,,,,,
+Tool:,Eeschema (6.0.1),,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,42,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,22uF,Device:C_Small,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+,,C2,4.7uF,Device:C_Polarized_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+,,C3,1uF,Device:C_Small,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+,,C4,2200pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+,,C5,.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+,,C6,.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+,,C8,100uF,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,~
+,,C9,330uF,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,~
+,,C10,47pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+,,CA1,.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+,,CB1,.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+,,D1,SS34-E3,Device:D_Schottky,Diode_SMD:D_MELF_Handsoldering,~
+,,D2,SS32-E3,Device:D_Schottky,Diode_SMD:D_MELF_Handsoldering,~
+,,DA1,MBR0540L,Device:D_Schottky,Diode_SMD:D_SOD-123,~
+,,DB1,MBR0540L,Device:D_Schottky,Diode_SMD:D_SOD-123,~
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~
+,,J1,PwrIn,Connector_Generic:Conn_01x02,Custom:PinHeader_1x02_P2.54mm_Horizontal,~
+,,J2,PwrOut,Connector_Generic:Conn_01x02,Custom:PinHeader_1x02_P2.54mm_Horizontal,~
+,,J3,GND,Connector_Generic:Conn_01x02,Custom:PinHeader_1x02_P2.54mm_Horizontal,~
+,,J4,PGood,Connector_Generic:Conn_01x01,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,~
+,,J5,ExtVCC,Connector_Generic:Conn_01x01,Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical,~
+,,J6,CtrlPins,Connector_Generic:Conn_01x04,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,~
+,,L1,4.7uH,Device:L_Small,Inductor_Coilcraft:L_12x12mm_H8mm,~
+,,QA1,RX3G07CGNC16,Custom:Q_NMOS_DGS_THERMAL,Custom:TO-220-3_Horizontal_TabDown_Thermal,~
+,,QB1,RX3G07CGNC16,Custom:Q_NMOS_DGS_THERMAL,Custom:TO-220-3_Horizontal_TabDown_Thermal,~
+,,QC1,RX3G07CGNC16,Custom:Q_NMOS_DGS_THERMAL,Custom:TO-220-3_Horizontal_TabDown_Thermal,~
+,,QD1,RX3G07CGNC16,Custom:Q_NMOS_DGS_THERMAL,Custom:TO-220-3_Horizontal_TabDown_Thermal,~
+,,R1,10mOhm,Device:R_Small,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,~
+,,R2,105k,Device:R_Small,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+,,R3,Rpull,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R4,20k,Device:R_Small,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+,,R5,49K,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R6,11K,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R7,JMP,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R8,JMP,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R9,JMP,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,R10,JMP,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+,,RV1,~7.5K,Device:R_Potentiometer,Potentiometer_Imported:CT-6EW,~
+,,U1,LTC3780IG-PBF,Custom:LTC3780IG-PBF,Imported:LTC3780IG-PBF,
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,1,C1,22uF,Device:C_Small,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+2,1,C2,4.7uF,Device:C_Polarized_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+3,1,C3,1uF,Device:C_Small,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,~
+4,1,C4,2200pF,Device:C_Small,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,~
+5,4,"C5, C6, CA1, CB1",.1uF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+6,1,C8,100uF,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,~
+7,1,C9,330uF,Device:C_Polarized_Small,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,~
+8,1,C10,47pF,Device:C_Small,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
+9,1,D1,SS34-E3,Device:D_Schottky,Diode_SMD:D_MELF_Handsoldering,~
+10,1,D2,SS32-E3,Device:D_Schottky,Diode_SMD:D_MELF_Handsoldering,~
+11,2,"DA1, DB1",MBR0540L,Device:D_Schottky,Diode_SMD:D_SOD-123,~
+19,1,L1,4.7uH,Device:L_Small,Inductor_Coilcraft:L_12x12mm_H8mm,~
+20,4,"QA1, QB1, QC1, QD1",RX3G07CGNC16,Custom:Q_NMOS_DGS_THERMAL,Custom:TO-220-3_Horizontal_TabDown_Thermal,~
+21,1,R1,10mOhm,Device:R_Small,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,~
+22,1,R2,105k,Device:R_Small,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+23,1,R3,49.9K,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+24,1,R4,20k,Device:R_Small,Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,~
+25,1,R5,49K,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+26,1,R6,11K,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+27,4,"R7, R8, R9, R10",JMP,Device:R_Small,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
+28,1,RV1,~7.5K,Device:R_Potentiometer,Potentiometer_Imported:CT-6EW,~
+29,1,U1,LTC3780IG-PBF,Custom:LTC3780IG-PBF,Imported:LTC3780IG-PBF,~
+,,,,,,~
+,,,,,,~
+,,,,,,~
+,,,,,,~
+,,,,,,~
+,,,,,,~
